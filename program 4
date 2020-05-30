@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main()
+{ int a,b;
+printf("Enter the number");
+scanf("%d %d",&a,&b);
+
+if(a>84 && a<=100)
+printf("Grade A");
+
+elseif(a>69 && a<85)
+printf("grade B");
+
+elseif(a>54 && a<70)
+printf("grade C");
+
+elseif(a>39 && a<55)
+printf("grade D");
+
+else 
+ printf(" Grade F");
+ }
